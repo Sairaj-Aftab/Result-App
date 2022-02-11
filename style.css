@@ -1,0 +1,27 @@
+body{
+    background: #ffffff;
+}
+:root{
+    --shadow-1: 0 .125rem .25rem rgba(0,0,0,.075);
+    --shadow-2: 0 .5rem 1rem rgba(0,0,0,.15);
+    --shadow-3: 0 1rem 3rem rgba(0,0,0,.175);
+}
+li{
+    list-style: none;
+}
+a,
+a:hover{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.w-90{
+    width: 90%;
+}
+.w-49{
+    width: 49%;
+}
+/* --------Result App----------- */
+
+/* --------Product Template--------- */

@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+    <div class="result menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card shadow-sm">
+              <div class="card-header text-center">
+                <h4>Student Form</h4>
+              </div>
+              <div class="card-body">
+                <form action="#">
+                  <div class="form-group mb-2">
+                    <input type="text" class="form-control" placeholder="Name">
+                  </div>
+                  <div class="form-group mb-2">
+                    <input type="text" class="form-control" placeholder="Roll">
+                  </div>
+                  <div class="form-group mb-2">
+                    <select class="form-select" aria-label="Default select example">
+                      <option selected>Select Class</option>
+                      <option value="Eight">Eight</option>
+                      <option value="Nine">Nine</option>
+                      <option value="Ten">Ten</option>
+                    </select>
+                  </div>
+                  <div class="form-group mb-2">
+                    <input type="text" class="form-control" placeholder="Photo Link">
+                  </div>
+                  <div class="form-group mb-3">
+                    <p class="mb-1 mt-2">Gender...</p>
+                    <input type="radio" name="gender" value="Male" id="Male"> <label for="Male">Male</label>
+                    <input type="radio" name="gender" value="Female" id="Female"> <label for="Female">Female</label>
+                  </div>
+                  <div class="form-group mb-2">
+                    <p class="font-weight-bold mb-0">All Subject Marks...</p>
+                  </div>
+                  <div class="form-group mb-2 w-49 d-inline-block">
+                    <input type="text" class="form-control" id="bangla" placeholder="Bangla">
+                  </div>
+                  <div class="form-group mb-2 w-49 d-inline-block">
+                    <input type="text" class="form-control" id="english" placeholder="English">
+                  </div>
+                  <div class="form-group mb-2 w-49 d-inline-block">
+                    <input type="text" class="form-control" id="math" placeholder="Math">
+                  </div>
+                  <div class="form-group mb-2 w-49 d-inline-block">
+                    <input type="text" class="form-control" id="social" placeholder="Social Science">
+                  </div>
+                  <div class="form-group mb-4 w-49 d-inline-block">
+                    <input type="text" class="form-control" id="science" placeholder="Science">
+                  </div>
+                  <div class="form-group mb-4 w-49 d-inline-block">
+                    <input type="text" class="form-control" id="religion" placeholder="Religion">
+                  </div>
+                  <div class="form-group">
+                    <input type="submit" value="Submit" class="btn btn-success btn-block">
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-9">
+            <div class="card">
+              <table class="table table-dark table-striped m-0">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Roll</th>
+                    <th>Class</th>
+                    <th>Gender</th>
+                    <th>GPA</th>
+                    <th>Photo</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="student-modal">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="student-sheet">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <!-- Optional JavaScript -->
+    <script src="Result.js"></script>
+    <script src="function.js"></script>
+    <script src="app.js"></script>
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    
+  </body>
+</html>
